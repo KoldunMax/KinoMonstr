@@ -1,0 +1,543 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 1.2em;
+  background-color: #fff;
+  color: #555;
+}
+
+p {
+  line-height: 1.7em;
+  padding-bottom: 20px; 
+}
+
+ul{
+  margin: 2px 0 22px 17px;
+}
+li{
+  margin: 0 0 6px 0;
+  padding: 0 0 4px 5px;
+  line-height: 1.5em;
+}
+
+input[type="text"], input[type="password"], input[type="search"]{
+  padding: 8px;
+  width: 60%;
+  color: #5d5d5d;
+}
+
+input, textarea{
+  outline: none;
+  border: solid 1px #f2f2f2;
+}
+
+h1, h2{
+  font: normal 170% "century gothic", arial, sans-serif;
+  margin: 15px 0 20px 0; 
+  color: #000;
+}
+
+h2{
+  font-size: 140%;
+}
+
+a, a:hover{
+  text-decoration: underline;
+  color: #aeb002;
+  outline: none;
+}
+
+hr{
+  border: solid 1px #f2f2f2;
+} 
+
+.header{
+  min-width: 900px;
+  font-size: 0.8em;
+  background-color: darkslateblue;
+  height: 177px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.main, .logo, .menubar, .site_content, .footer{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo{
+  width: 880px;
+  padding-bottom: 40px;  
+}
+
+.logo h1, .logo h2{
+  margin: 0 0 0 9px;
+  font: normal 300% 'century gothic', arial, sans-serif;
+}
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover{
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #fff;
+  padding: 22px 0 0 0;
+}
+
+.logo_text h2{
+  padding: 4px 0 0 0;
+  font-size: 0.9em;
+  color: #999;
+}
+
+.menubar{
+  width: 900px;
+  height: 46px;
+}
+
+ul.menu{
+  float:right;
+}
+
+ul.menu li{
+  float: left;
+  list-style: none;
+  padding: 0 0 0 9px;
+  margin: 1px 2px 0 0;
+}
+
+ul.menu li a{
+  display: block;
+  text-decoration: none;
+  padding: 6px 35px 5px 28px;
+  color: #fff;
+  font: normal 100% 'trebuchet ms', sans-serif;
+  height: 20px;
+}
+
+ul.menu li.selected a{
+  color: #aeb002;
+}
+
+ul.menu li a:hover{
+  color: #e4ec04;
+}
+
+.site_content{
+  width: 880px;
+  background-color: white;
+  margin: 20px auto 0px auto;
+  overflow: hidden;
+}
+
+.sidebar_container{
+  width: 224px;
+  float: right;
+}
+
+.sidebar{
+  float: right;
+  width: 222px;
+  padding: 5%;
+  margin-bottom: 16px;
+  background-color: #f9f9f9;
+  border: solid 1px #f2f2f2;
+  border-radius: 5px;
+}
+
+.btn{
+  padding: 8px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.sidebar h2{
+  color: #136cb2;
+}
+
+.lables_passreg_text{
+  margin-top: 2%;
+  margin-left: 3%;
+  font-size: 0.7em;
+}
+
+.sidebar ul{
+  margin: 0;
+}
+
+.sidebar li{
+  margin: 0;
+  list-style: none
+}
+
+.sidebar .evaluation_film{
+  float: right;
+}
+
+.content{
+  width: 620px;
+  padding: 0 0 0 5px;
+  float: left;
+  text-align: left;
+}
+
+.content a{
+  text-decoration: none;
+}
+
+.info_film_page{
+  margin-bottom: 4%;
+  margin-top: 2%;
+}
+
+.info_film_page .label{
+  font-size: 1.2em;
+}
+
+.info_film_page .value{
+  font-size: 1em;
+  color: #49945a;
+  margin-right: 3%;
+}
+
+.films_block{
+  margin-bottom: 5%;
+}
+
+.films_block img{
+  border: solid 5px #dad7d5;
+  border-radius: 5px;
+  width: 22%;
+}
+
+.description_film{
+  margin-bottom: 12%;
+}
+
+.description_film img,
+.info_film img{
+  border: solid 5px #dad7d5;
+  border-radius: 5px;
+  margin-right: 2%;
+  float: left;
+}
+
+.posts .posts_text{
+  font-size: 0.8em;
+}
+
+.footer{
+  width: 100%;
+  min-width: 900px;
+  height: 120px;
+  background-color: darkslateblue;
+  text-align: center;
+  padding: 28px 0 5px 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #a8aa94;
+}
+
+.footer a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer p{
+  color: #a8aa94;
+  padding-bottom: 10px;
+}
+
+.reviews{
+  padding-bottom: 4%;
+  font-size: 0.9em;
+}
+
+.reviews_name{
+  background-color: #7268ad;
+  padding: 1%;
+  color: white;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.reviews_text{
+  padding: 2% 0 5% 2%;
+}
+
+.send input[type="text"], textarea, input[type="submit"],
+.send_contacts input[type="text"]{
+  margin-bottom: 2%;
+  border: solid 1px #c3c3c3;
+}
+
+.send input[type="text"]{
+  width: 98%;
+}
+
+.send textarea{
+  width: 624px;
+  height: 200px;
+}
+
+
+.send input[type="submit"],
+.send_contacts input[type="submit"]{
+  padding: 3%;
+  background-color: #7268ad;
+  border-radius: 5px;
+  color: white;
+}
+
+.send_contacts textarea{
+  width: 560px;
+  height: 200px;
+}
+
+.send_contacts input[type="text"]{
+  width: 88%;
+}
+
+.info_film{
+  height: 270px;
+  font-size: 1em;
+  padding: 5%;
+  margin-bottom: 5%;
+  background-color: #f9f9f9;
+}
+
+.info_film .button a{
+  display: block;
+  font-size: 0.8em;
+  padding: 12px;
+  margin-top: 5%;
+  background-color: #7268ad; 
+  border-radius: 5px;
+  color: white;
+  float: right;
+  float: top;
+}
+
+.info_film img{
+  width: 25%;
+}
+
+.rating table{
+  width: 100%;
+  padding: 1px;
+  border: solid 1px #f4f4f4;;
+}
+
+.rating td{
+  text-align: center;
+  border: solid 1px #f4f4f4;
+  padding: 2%
+}
+
+.rating td img{
+  width: 60px;
+  vertical-align: middle;
+}
+
+.rating .name_film{
+  text-align: left;
+}
+
+.rating th{
+  text-align: center;
+}
+
+.menubar a:hover{
+  animation-name: fontSize;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+#touch_menu{
+    padding-right: 10px;
+    display: none;
+}
+
+#touch-menu:hover{
+  background-color: #5e5592;
+}  
+
+.menubar:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* CSS mobile */
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px){
+
+
+  .header{
+    min-width: 100%;
+    height: 20%;
+    text-align: center;
+  }
+
+  .footer{
+    min-width: 100%;
+  }
+
+  .logo_text h1{
+    font-size: 2.6em; 
+  }
+
+  ul{
+    float: none;
+  }
+
+  ul.menu{
+    width: 100%;
+    margin: 0;
+  }
+
+  ul.menu li {
+    float: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul.menu li a{
+    padding: 7px 35px;
+  }
+
+  ul.menu li a:hover{
+    background-color: #615a8f;
+  }
+
+  .menubar{
+    width: 100%;
+    height: 50%;
+  }
+  
+  #touch_menu{
+    display: block;
+    height: 44px;
+  }
+
+  #touch_menu img{
+    float: right;
+  }
+  
+  .info_film {
+    text-align: center;
+    padding-bottom: 20%;
+    height: unset;
+    font-size: 17px;
+  }
+
+  .info_film img {
+    width: 40%;
+    float: unset;
+    margin: 0 30% 5% 30%;
+  }
+
+  .rating th{
+    font-size: 0.8em;
+  }
+
+  .rating td img{
+    width: 80%;
+  }
+
+  .rating table{
+    margin-bottom: 10%;
+  }
+
+  .sidebar_container{
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+  
+  .send_contacts input[type="text"]{
+    width: 100%;
+  }
+
+  .send_contacts textarea{
+    width: 100%;
+    height: unset;
+    padding-bottom: 40%;
+  }
+
+  .send_contacts input[type="submit"]{
+    margin-bottom: 5%;
+  }
+
+  .rating{
+     min-width: 100%;  
+  }   
+
+  .rating table tr{
+    font-size: 15px;
+  }
+
+  .sidebar{
+    float: unset;
+    width: unset;
+
+  }
+
+  .menubar{
+    display: none;
+  }
+
+  .logo{
+    width: 100%;
+  }
+
+  .site_content{
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .content{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    float: unset;
+  }
+
+  .films_block{
+    margin: 0;
+    float: unset;
+  }
+
+  .films_block img{
+      width: 40%;
+         margin: 1% 1% 1% 1%;
+  }
+
+  p {
+      line-height: 1.2em;
+      font-weight: 700;
+      padding-bottom: 20px;
+      font-size: 20px;
+  }
+
+  .sidebar p{
+      line-height: 1.7em;
+      font-size: 20px;
+      padding-bottom: 20px;
+      font-weight: 100;
+  }
+
+  .footer p{
+    font-weight: 400;
+         padding-bottom: 6%;
+  }
+
+}
